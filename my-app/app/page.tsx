@@ -1,9 +1,15 @@
+import Footer from './components/footer';
+import Header from './components/header';
+import Telo from './components/telo';
 import './globals.css';
 
 export default function Home() {
   return (
     <div className="conteiner">
-      <div className="header">
+      <Header/>
+      <Telo/>
+      <Footer/>
+      {/* <div className="header">
         <h1> Hello my sunshine
         </h1>
       </div>
@@ -26,7 +32,7 @@ export default function Home() {
 
       <div className='footer'>
         <h5>Footer</h5>
-      </div>
+      </div> */}
 
     </div>
 
